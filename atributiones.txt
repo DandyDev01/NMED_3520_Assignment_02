@@ -1,0 +1,3 @@
+blue_print_background -http://theemc.deviantart.com/art/Blueprint-183075530
+
+godot_logo - https://foss-gbg.se/2019/11/2019-10-the-game-programming-event/
