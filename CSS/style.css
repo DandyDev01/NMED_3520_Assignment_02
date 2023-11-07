@@ -53,14 +53,6 @@ hr {
     font-size: 51px;
 }
 
-#content section:nth-child(4) p img {
-    width:100%;
-}
-
-#content section:nth-child(6) p img {
-    width:100%;
-}
-
 #feature {
     display: grid;
     grid-template-columns: 5fr 1fr;
@@ -72,11 +64,11 @@ hr {
     grid-gap: 10px;
 }
 
-#Godot_renderer p {
-    width: 100%;
-}
-
 .Citation {
     font-size: 10px;
     margin-bottom: 50px;
+}
+
+.Citation img {
+    width: 100%;
 }
