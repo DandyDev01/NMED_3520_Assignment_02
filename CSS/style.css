@@ -57,6 +57,10 @@ hr {
     width:100%;
 }
 
+#content section:nth-child(6) p img {
+    width:100%;
+}
+
 #feature {
     display: grid;
     grid-template-columns: 5fr 1fr;
