@@ -42,7 +42,7 @@ hr {
 
 footer {
     display: grid;
-    grid-template-columns: 7fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 75px;
     background-color: rgb(64, 64, 66);
 }
@@ -78,8 +78,13 @@ footer ul {
     grid-gap: 10px;
 }
 
+#back_to_top {
+    width: 100px;
+}
+
 #back_to_top img {
     width: 100px;
+    padding-left:300px;
 }
 
 .Citation {
@@ -130,6 +135,14 @@ footer ul {
     
     #feature {
         grid-template-columns: 1fr;
+    }
+    footer {
+        grid-template-columns: 1fr;
+    }
+
+    #back_to_top img {
+        margin: auto;
+        max-width: 100px;
     }
 }
 
