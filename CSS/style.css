@@ -5,13 +5,19 @@ body {
 }
 
 header {
+    position: fixed;
+    /* margin: auto; */
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* padding: 0 20%; */
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
     max-width: 900px;
     border-radius: 20px;
-    background-color: aquamarine;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: rgb(70, 139, 190);
 }
 
 header nav ul {
@@ -29,7 +35,7 @@ header nav ul li {
 
 header nav ul li:hover {
     border-radius: 20px;
-    background-color: red;
+    background-color: rgb(64, 64, 66);
 }
 
 hr {
@@ -71,4 +77,60 @@ hr {
 
 .Citation img {
     width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    #content {
+         padding: 5% 10%;
+    }
+
+    #content section:nth-child(1) img {
+        width: 150px;
+        right: 0;
+        padding-top: 50px;
+        position: absolute;
+        padding-right: 100px;
+    }
+    
+    #feature {
+        grid-template-columns: 4fr 1fr;
+    }
+
+    #Godot_renderer {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #content section:nth-child(1) img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #content {
+         padding: 5% 3%;
+    }
+    
+    #content section:nth-child(1) img {
+        display: none;
+    }
+    
+    #feature {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    #content section:nth-child(1) h1 {
+        font-size: 31px;
+    }
+
+    #content section:nth-child(1) img {
+        display: none;
+    }
 }
