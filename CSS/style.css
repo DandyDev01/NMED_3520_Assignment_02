@@ -5,12 +5,7 @@ body {
 }
 
 header {
-    position: fixed;
-    /* margin: auto; */
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    /* padding: 0 20%; */
+    margin-top: 100px;
     margin-left:auto;
     margin-right:auto;
     left:0;
@@ -45,6 +40,19 @@ hr {
     color: rgb(70, 139, 190);
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    padding: 75px;
+    background-color: rgb(64, 64, 66);
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
 #content  {
     padding: 5% 20%;
     background: rgb(33,34,34);
@@ -68,6 +76,10 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+}
+
+#back_to_top img {
+    width: 100px;
 }
 
 .Citation {
