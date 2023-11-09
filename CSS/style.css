@@ -105,9 +105,18 @@ footer ul li a {
     width: 100%;
 }
 
-/* .Indie_hit {
-    
-} */
+.Indie_hit {
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr;
+}
+
+.Indie_hit>h3 {
+    grid-row: 1;
+}
+
+.Indie_hit div:nth-child(2), .Indie_hit p:nth-child(3) {
+    grid-row: 2;
+}
 
 @media screen and (max-width: 900px) {
     #content {
