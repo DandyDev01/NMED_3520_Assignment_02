@@ -64,7 +64,6 @@ footer ul li a {
 
 #content  {
     padding: 5% 20%;
-    background: rgb(33,34,34);
     background: linear-gradient(0deg, rgba(33,34,34,1) 65%, rgba(112,112,112,0) 100%); 
 }
 
@@ -108,6 +107,7 @@ footer ul li a {
 .Indie_hit {
     display: grid;
     grid-template-columns: 1.5fr 1.2fr;
+    grid-gap: 10px;
 }
 
 .Indie_hit>h3 {
@@ -116,6 +116,12 @@ footer ul li a {
 
 .Indie_hit div:nth-child(2), .Indie_hit p:nth-child(3) {
     grid-row: 2;
+}
+
+@media screen and (max-width: 1120px) {
+    #back_to_top img {
+        padding-left:0px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -137,6 +143,22 @@ footer ul li a {
 
     #Godot_renderer {
         grid-template-columns: 1fr;
+    }
+
+    .Indie_hit {
+        grid-template-columns: 1fr;
+    }
+
+    .Indie_hit>h3 {
+        grid-row: 1;
+    }
+
+    .Indie_hit div:nth-child(2) {
+        grid-row: 2;
+    }
+
+    .Indie_hit p:nth-child(3) {
+        grid-row: 3;
     }
 }
 
