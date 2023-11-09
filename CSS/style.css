@@ -28,6 +28,11 @@ header nav ul li {
     padding: 10px;
 }
 
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 header nav ul li:hover {
     border-radius: 20px;
     background-color: rgb(64, 64, 66);
@@ -51,6 +56,10 @@ footer ul {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+footer ul li a {
+    color: white;
 }
 
 #content  {
@@ -95,6 +104,10 @@ footer ul {
 .Citation img {
     width: 100%;
 }
+
+/* .Indie_hit {
+    
+} */
 
 @media screen and (max-width: 900px) {
     #content {
