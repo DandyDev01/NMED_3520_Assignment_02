@@ -38,6 +38,10 @@ header nav ul li:hover {
     background-color: rgb(64, 64, 66);
 }
 
+a {
+    color: rgb(70, 139, 190);
+}
+
 hr {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -102,6 +106,14 @@ footer ul li a {
 
 .Citation img {
     width: 100%;
+}
+
+.Sources {
+    font-size: 12px;
+}
+
+.Sources h4 {
+    font-size: 16px;
 }
 
 .Indie_hit {
